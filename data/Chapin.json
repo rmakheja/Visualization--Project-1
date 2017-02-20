@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {"id":"Rashmi","group":1},
+    {"id":"Sanket","group":1},
+    {"id":"Swati","group":1},
+    {"id":"Swetambari","group":1},
+    {"id":"Kunal","group":1},
+    {"id":"Sagar","group":1},
+    {"id":"Jeevan","group":1},
+    {"id":"Abhinav","group":1},
+    {"id":"Rowan","group":1},
+    {"id":"Raunaq","group":1},
+    
+    {"id":"Vaashu","group":2},
+    {"id":"Gaurav","group":2},
+    {"id":"Hemant","group":2},
+    {"id":"Sayan","group":2},
+    {"id":"Prathak","group":2},
+    {"id":"Naveen","group":2},
+    {"id":"Sumit","group":2},
+    {"id":"Karan","group":2},
+    {"id":"Arun","group":2},
+    {"id":"Rakshit","group":2},
+    
+
+
+    {"id":"Sathya","group":3},
+    {"id":"Nehil","group":3},
+    {"id":"Tanwee","group":3},
+    {"id":"Prachi","group":3},
+    {"id":"Prasoon","group":3},
+    {"id":"Gopi","group":3},
+    {"id":"Bharath","group":3},
+    {"id":"Sid","group":3},
+    {"id":"Nirali","group":3},
+    {"id":"Amit","group":3}
+    
+  ],
+  "links": [
+    {"source":"Rashmi", "target":"Sathya", "value":2},
+    {"source":"Rashmi", "target":"Tanwee", "value":2},
+    {"source":"Rashmi", "target":"Vaashu", "value":1},
+    {"source":"Rashmi", "target":"Nirali", "value":2},
+    {"source":"Rashmi", "target":"Prachi", "value":2},
+
+    {"source":"Vaashu", "target":"Sathya", "value":2},
+    {"source":"Vaashu", "target":"Tanwee", "value":2},
+    {"source":"Vaashu", "target":"Nirali", "value":2},
+    {"source":"Vaashu", "target":"Prachi", "value":2},
+
+    {"source":"Sathya", "target":"Tanwee", "value": 1},
+    {"source":"Prachi", "target":"Nirali", "value": 1},
+
+    {"source":"Kunal", "target":"Sagar", "value": 3},
+    {"source":"Kunal", "target":"Gopi", "value": 4},
+    {"source":"Sagar", "target":"Gopi", "value": 4},
+    {"source":"Kunal", "target":"Nehil", "value": 4},
+    {"source":"Sagar", "target":"Nehil", "value": 4},
+    {"source":"Nehil", "target":"Gopi", "value": 5},
+
+
+    {"source":"Sanket", "target":"Bharath", "value": 7},
+    {"source":"Sanket", "target":"Amit", "value": 6},
+    {"source":"Bharath", "target":"Amit", "value": 8},
+    
+    
+    {"source":"Raunaq", "target":"Sid", "value": 9},
+
+    {"source":"Jeevan", "target": "Abhinav", "value": 10},
+    
+    {"source":"Gaurav", "target":"Prasoon", "value": 11},
+    {"source":"Prathak", "target":"Arun", "value": 11},
+    {"source":"Hemant", "target":"Sumit", "value": 12},
+    {"source":"Hemant", "target":"Naveen", "value": 12},
+    {"source":"Sayan", "target":"Rakshit", "value": 12},
+    {"source":"Rowan", "target":"Karan", "value": 13},
+
+
+    
+    {"source":"Sanket", "target":"Rashmi", "value": 14},
+    {"source":"Rowan", "target":"Sagar", "value": 14},
+    {"source":"Sanket", "target":"Raunaq", "value": 14},
+    {"source":"Rowan", "target":"Swati", "value": 14},
+    {"source":"Sanket", "target":"Swetambari", "value": 14},
+    {"source":"Rowan", "target":"Jeevan", "value": 14},
+    {"source":"Sanket", "target":"Abhinav", "value": 14},
+    {"source":"Rowan", "target":"Kunal", "value": 14},
+    {"source":"Sanket", "target":"Rowan", "value": 14},
+
+    {"source":"Hemant", "target":"Gaurav", "value": 14},
+    {"source":"Sayan", "target":"Hemant", "value": 14},
+    {"source":"Rakshit", "target":"Gaurav", "value": 14},
+    {"source":"Karan", "target":"Hemant", "value": 14},
+    {"source":"Vaashu", "target":"Gaurav", "value": 14},
+    {"source":"Prathak", "target":"Hemant", "value": 14},
+    {"source":"Arun", "target":"Gaurav", "value": 14},
+    {"source":"Prasoon", "target":"Hemant", "value": 14}
+
+
+
+
+
+
+  ]
+}
